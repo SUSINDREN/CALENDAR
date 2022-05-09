@@ -26,7 +26,7 @@
 #define HOME 18176
 #define END 20224
 
-void drawDabba(void)
+void drawBox(void)
 {
     int ctr1, ctr2, ctr3, ctr4;
     int row, col;
@@ -191,7 +191,7 @@ int main()
     
     do
     {
-        drawDabba();
+        drawBox();
         colHeadings();
         printCalendar(month, year);
         while(bioskey(1) == 0);
